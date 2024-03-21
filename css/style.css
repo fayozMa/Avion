@@ -327,4 +327,53 @@ input {
   margin-top: 64px;
   padding: 16px 32px;
   margin-bottom: 40px;
+}
+
+.our-history {
+  margin-top: 40px;
+}
+
+.our-history--cards {
+  display: flex;
+  gap: 16px;
+  padding-top: 60px;
+}
+.our-history--cards .box {
+  width: 634px;
+  height: 478px;
+  padding: 64px 75px 54px 64px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #2A254B;
+}
+.our-history--cards .box h4 {
+  font-family: Clash Display;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39.36px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.our-history--cards .box p {
+  font-family: Satoshi;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 205px;
+}
+.our-history--cards .box button {
+  width: Hug(170px);
+  height: Hug(56px);
+  padding: 16px 32px 16px 32px;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  border: 0px;
+  background: rgba(249, 249, 249, 0.1490196078);
 }/*# sourceMappingURL=style.css.map */
