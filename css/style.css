@@ -240,7 +240,7 @@ input {
 }
 
 .our-brand-differenses {
-  padding-bottom: 82px;
+  padding-bottom: 130px;
 }
 .our-brand-differenses .title {
   font-family: Clash Display;
@@ -279,4 +279,52 @@ input {
   line-height: 24px;
   text-align: left;
   color: #2A254B;
+}
+
+.products {
+  display: flex;
+  gap: 20px;
+}
+
+.products_card picture {
+  margin-bottom: 24px;
+}
+.products_card .content {
+  margin-top: 24px;
+}
+.products_card .content h4 {
+  font-family: Clash Display;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #2A254B;
+}
+.products_card .content p {
+  font-family: Satoshi;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #2A254B;
+  margin-top: 8px;
+}
+
+.product-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-section button {
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #2A254B;
+  border: 0px;
+  background-color: #F9F9F9;
+  margin-top: 64px;
+  padding: 16px 32px;
+  margin-bottom: 40px;
 }/*# sourceMappingURL=style.css.map */
