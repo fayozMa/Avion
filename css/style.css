@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Clash Display";
+  src: url(../../static/fonts/ClashDisplay-Regular.woff2);
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url(../../static/fonts/Satoshi-Regular.woff2);
+}
 /* http://meyerweb.com/eric/tools/css/reset/
    v5.0.2 | 20191019
    License: none (public domain)
@@ -139,4 +147,41 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .catagories a {
+    display: none;
+  }
+  .user a {
+    display: none;
+  }
+}
+input {
+  display: none;
+  font-family: clash display;
+}
+
+.catagories {
+  display: flex;
+  gap: 44px;
+  justify-content: center;
+  max-width: Hug(675px);
+  height: Hug(22px);
+}
+.catagories a {
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: #726e8d;
+  text-decoration: none;
+}
+.catagories a:hover {
+  text-decoration: underline;
+}
+
+.hamburger-menu {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

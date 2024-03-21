@@ -1,0 +1,26 @@
+input {
+  display: none;
+  font-family: clash display;
+}
+.catagories {
+  display: flex;
+  gap: 44px;
+  justify-content: center;
+  max-width: Hug(675px);
+  height: Hug(22px);
+  a {
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #726e8d;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+}
+.hamburger-menu{
+    display: none;
+}
