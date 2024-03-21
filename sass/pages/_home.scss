@@ -133,7 +133,7 @@
     margin-bottom: 40px;
   }
 }
-.our-history{
+.our-history {
   margin-top: 40px;
 }
 .our-history--cards {
@@ -176,7 +176,89 @@
       text-align: left;
       color: $white;
       border: 0px;
-      background: #F9F9F926;
+      background: #f9f9f926;
+    }
+  }
+}
+.sign-up-section {
+  background-image: url(../../static/images/webp/Form-bg.webp);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 444px;
+  margin-top: 60px;
+  .about-sign-up-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 97px;
+    margin-bottom: 40px;
+    h2 {
+      font-family: Clash Display;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 44.8px;
+      text-align: center;
+      color: $white;
+      margin-bottom: 12px;
+    }
+    p {
+      max-width: 470px;
+      font-family: Satoshi;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      text-align: center;
+      color: $white;
+      margin-bottom: 30px;
+    }
+    .abilities {
+      display: flex;
+      gap: 36px;
+      .ability {
+        display: flex;
+        gap: 4px;
+        span {
+          font-family: Satoshi;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: center;
+          color: $white;
+        }
+      }
+    }
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    input {
+      width: 354px;
+      height: 56px;
+      gap: 10px;
+    }
+    input::placeholder {
+      padding-left: 32px;
+      font-family: Satoshi;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21.6px;
+      text-align: left;
+    }
+    button {
+      width: Hug(118px);
+      height: Hug(56px);
+      padding: 16px 32px 16px 32px;
+      gap: 10px;
+      opacity: 0px;
+      background: $dark-primary;
+      color: $white;
+      font-family: Satoshi;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      border: 0;
     }
   }
 }

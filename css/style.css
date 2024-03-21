@@ -165,7 +165,7 @@ table {
     display: none;
   }
 }
-input {
+nav input {
   display: none;
   font-family: clash display;
 }
@@ -192,6 +192,109 @@ input {
 
 .hamburger-menu {
   display: none;
+}
+
+footer {
+  background-color: #2A254B;
+  width: 100%;
+}
+footer .links {
+  display: flex;
+  gap: 120px;
+  padding-top: 58px;
+  padding-bottom: 48px;
+}
+footer .links p {
+  font-family: Clash Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.68px;
+  text-align: left;
+  color: #ffffff;
+}
+footer .links .link {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+footer .links .link a {
+  font-family: Satoshi;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #ffffff;
+}
+footer .links form .email {
+  display: flex;
+}
+footer .links form label {
+  display: block;
+  font-family: Clash Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.68px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+footer .links form input {
+  width: 501px;
+  height: 56px;
+  background: rgba(255, 255, 255, 0.1490196078);
+  border: 0;
+  color: #ffffff;
+}
+footer .links form input::-moz-placeholder {
+  color: #ffffff;
+  padding-left: 32px;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+}
+footer .links form input::placeholder {
+  color: #ffffff;
+  padding-left: 32px;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+}
+footer .links form button {
+  width: Hug(118px);
+  height: Hug(56px);
+  padding: 16px 32px 16px 32px;
+  color: #2A254B;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  border: 0;
+}
+footer hr {
+  color: #4e4d93;
+  margin-bottom: 24px;
+}
+footer .contact {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+footer .contact h4 {
+  font-family: Satoshi;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #ffffff;
+}
+footer .contact .socials {
+  display: flex;
+  gap: 24px;
 }
 
 .face-section {
@@ -376,4 +479,95 @@ input {
   color: #ffffff;
   border: 0px;
   background: rgba(249, 249, 249, 0.1490196078);
+}
+
+.sign-up-section {
+  background-image: url(../../static/images/webp/Form-bg.webp);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 444px;
+  margin-top: 60px;
+}
+.sign-up-section .about-sign-up-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 97px;
+  margin-bottom: 40px;
+}
+.sign-up-section .about-sign-up-section h2 {
+  font-family: Clash Display;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44.8px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.sign-up-section .about-sign-up-section p {
+  max-width: 470px;
+  font-family: Satoshi;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.sign-up-section .about-sign-up-section .abilities {
+  display: flex;
+  gap: 36px;
+}
+.sign-up-section .about-sign-up-section .abilities .ability {
+  display: flex;
+  gap: 4px;
+}
+.sign-up-section .about-sign-up-section .abilities .ability span {
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.sign-up-section form {
+  display: flex;
+  justify-content: center;
+}
+.sign-up-section form input {
+  width: 354px;
+  height: 56px;
+  gap: 10px;
+}
+.sign-up-section form input::-moz-placeholder {
+  padding-left: 32px;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+}
+.sign-up-section form input::placeholder {
+  padding-left: 32px;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+}
+.sign-up-section form button {
+  width: Hug(118px);
+  height: Hug(56px);
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  opacity: 0px;
+  background: #2A254B;
+  color: #ffffff;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  border: 0;
 }/*# sourceMappingURL=style.css.map */

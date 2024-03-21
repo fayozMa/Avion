@@ -1,0 +1,95 @@
+footer {
+  background-color: $dark-primary;
+  width: 100%;
+  .links {
+    display: flex;
+    gap: 120px;
+    padding-top: 58px;
+    padding-bottom: 48px;
+    p {
+      font-family: Clash Display;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19.68px;
+      text-align: left;
+      color: $white;
+    }
+    .link {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      a {
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.9px;
+        text-align: left;
+        color: $white;
+      }
+    }
+    form {
+      .email {
+        display: flex;
+      }
+      label {
+        display: block;
+        font-family: Clash Display;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.68px;
+        text-align: left;
+        color: $white;
+        margin-bottom: 16px;
+      }
+      input {
+        width: 501px;
+        height: 56px;
+        background: #ffffff26;
+        border: 0;
+        color: $white;
+      }
+      input::placeholder {
+        color: $white;
+        padding-left: 32px;
+        font-family: Satoshi;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.6px;
+        text-align: left;
+      }
+      button {
+        width: Hug(118px);
+        height: Hug(56px);
+        padding: 16px 32px 16px 32px;
+        color: $dark-primary;
+        font-family: Satoshi;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        border: 0;
+      }
+    }
+  }
+  hr {
+    color: #4e4d93;
+    margin-bottom: 24px;
+  }
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    h4 {
+      font-family: Satoshi;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18.9px;
+      text-align: left;
+      color: $white;
+    }
+    .socials{
+        display: flex;
+        gap: 24px;
+    }
+  }
+}
