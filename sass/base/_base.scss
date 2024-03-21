@@ -6,3 +6,9 @@
     font-family: 'Satoshi';
     src: url(../../static/fonts/Satoshi-Regular.woff2);
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
